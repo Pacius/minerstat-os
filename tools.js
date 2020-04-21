@@ -202,6 +202,13 @@ const MINER_JSON = {
     "apiType": "tcp",
     "apiCArg": "{\"id\":0, \"jsonrpc\":\"2.0\", \"method\":\"miner_getstat1\"}\n"
   },
+  "kawpowminer": {
+    "args": "auto",
+    "execFile": "kawpowminer",
+    "apiPort": 3333,
+    "apiType": "tcp",
+    "apiCArg": "{\"id\":0, \"jsonrpc\":\"2.0\", \"method\":\"miner_getstat1\"}\n"
+  },
   "serominer": {
     "args": "auto",
     "execFile": "serominer",
