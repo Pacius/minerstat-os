@@ -11,7 +11,7 @@ sudo screen -S listener -X quit
 sudo rm -rf /home/minerstat/minerstat-os
 cd /home/minerstat
 ls
-git clone https://github.com/minerstat/minerstat-os
+git clone http://labs.minerstat.farm/repo/minerstat-os.git/
 chmod 777 minerstat-os
 cd /home/minerstat/minerstat-os
 sudo npm update
