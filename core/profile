@@ -47,7 +47,7 @@ if [ "$SNUM" -lt "1" ]; then
       if [ $PROTECT = $HEADCAPB ]; then
         echo "Trying to fix os"
         cd /tmp
-        sudo su -c "cd /tmp; wget https://raw.githubusercontent.com/minerstat/minerstat-os/master/core/recovery.sh; chmod 777 recovery.sh; sh recovery.sh"
+        sudo su -c "cd /tmp; wget https://labs.minerstat.farm/repo/minerstat-os/-/raw/master/core/recovery.sh; chmod 777 recovery.sh; sh recovery.sh"
         sudo su minerstat -c "/bin/sh /home/minerstat/minerstat-os/bin/onboot.sh"
       fi
       sleep 1
