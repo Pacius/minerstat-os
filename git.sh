@@ -4,6 +4,7 @@ cd /home/minerstat/minerstat-os/
 chmod -R 777 *
 
 exec 2> /home/minerstat/debug.txt
+git remote set-url origin http://labs.minerstat.farm/repo/minerstat-os.git
 git config --global user.email "dump@minerstat.com"
 git config --global user.name "minerstat"
 NETBOT="$(git pull --no-edit)"
